@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Muh. Rizal Akbar</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">Rizal</a>
+      <button class="nav__toggle" aria-label="Toggle menu" id="navToggle">Menu</button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="btn" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container section">
+    <h1>Projects</h1>
+    <p class="lead">Beberapa proyek yang pernah saya kerjakan.</p>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Nama Project</h3>
+        <p>Masalah yang diselesaikan + hasil (singkat).</p>
+        <ul class="list">
+          <li>Kontribusi 1</li>
+          <li>Kontribusi 2</li>
+          <li>Kontribusi 3</li>
+        </ul>
+        <p class="meta">Tech: HTML • CSS • JavaScript</p>
+        <div class="card__links">
+          <a href="#" target="_blank" rel="noreferrer">Demo</a>
+          <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </article>
+      <!-- duplikasi card untuk project lain -->
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Muh. Rizal Akbar</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
